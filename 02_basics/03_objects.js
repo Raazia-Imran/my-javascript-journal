@@ -9,12 +9,12 @@ const mySym = Symbol("key1")
 
 // Defining an object using object literal syntax
 const JsUser = {
-    name: "Hitesh",                         // normal property
-    "full name": "Hitesh Choudhary",        // key with space must be in quotes
+    name: "Ali",                         // normal property
+    "full name": "Ali Choudhary",        // key with space must be in quotes
     [mySym]: "mykey1",                      // symbol as a property key
     age: 18,
-    location: "Jaipur",
-    email: "hitesh@google.com",
+    location: "Japan",
+    email: "ali@google.com",
     isLoggedIn: false,
     lastLoginDays: ["Monday", "Saturday"]
 }
